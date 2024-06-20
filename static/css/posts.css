@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* .p {
+  text-align: center;
+  margin-top: 10px;
+}
+.goalkeeper,
+.defender,
+.midfielder,
+.forwards,
+.coach {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+section > div {
+  width: 300px;
+  height: 290px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-left: 15px;
+  margin-bottom: 100px;
+}
+
+.img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.img1 {
+  width: 250px;
+  border-radius: 10px;
+} */
+
+/* div > h2 {
+  text-align: center;
+}
+
+div > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.p.вратари-0 {
+} */
+
+div > h2 {
+  text-align: center;
+  width: 100%;
+  color: black;
+}
+
+.div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.p {
+  width: 300px;
+  height: 290px;
+  border-radius: 20px;
+
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  transition: transform 0.5s;
+  color: black;
+}
+.p:hover {
+  width: 300px;
+  height: 290px;
+  border-radius: 20px;
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 100px;
+  transition: transform 0.5s;
+  color: black;
+  transform: scale(1.1);
+}
+div > p {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.p-img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.h2 {
+  color: #fff;
+}
+
+.img1 {
+  border-radius: 20px;
+  width: 300px;
+  height: 490px;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  position: absolute;
+  color: black;
+}
+
+.sidebar a,
+ul,
+li {
+  color: black;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}

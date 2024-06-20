@@ -1,0 +1,43 @@
+{% extends "base.html" %} {% block content %}
+
+<style>
+  /* div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 200px;
+    color: #fff;
+  } */
+</style>
+
+<div
+  style="
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    color: #fff;
+  "
+>
+  <h2>Registration</h2>
+  <form method="post">
+    {% csrf_token %} {{ form.as_p }}
+    <button type="submit">zaregatsya</button>
+    <a
+      href="{%url 'login' %}"
+      style="
+        display: flex;
+        margin-top: 20px;
+        text-decoration: none;
+        color: yellow;
+        justify-content: center;
+      "
+      >Already have an account?</a
+    >
+  </form>
+</div>
+{% endblock %}

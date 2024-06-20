@@ -1,0 +1,49 @@
+{% extends "base.html" %} {% load static %} {% block extracss %}
+<link rel="stylesheet" href="{% static 'css/s.css' %}" />
+{% endblock %} {% block content %}
+<section class="welcome">
+  <div class="welcome_text">
+    <h1 class="welcome_header">Сеть столовых №1 в Казахстане</h1>
+    <p class="p">
+      Команда Moldir – это большая семья, которая заботится о каждом госте!
+      Каждый день мы готовим для Вас с душой и любовью!
+    </p>
+    <a href="#" class="button">Заказать доставку</a>
+  </div>
+  <img src="{% static 'img/food.jpg' %}" alt="health" class="welcome_photo" />
+</section>
+
+<section class="service">
+  <h1 class="h2">Наши услуги</h1>
+  <div class="service_text">Мы хотим предоставить вам лучшие наши услуги</div>
+</section>
+
+<section class="services">
+  <div class="delivery">
+    <img src="{% static 'img/delivery.jpg' %}" alt="" class="img" />
+    <h1 class="h1">Доставка</h1>
+    <p class="p1">Доставим в течений 10 минут</p>
+  </div>
+  <div class="vakancia">
+    <img src="{% static 'img/job.png' %}" alt="Вакансия" class="img" />
+    <h1 class="h1">Вакансия</h1>
+    <p class="p1">Присоединяйся к нам</p>
+  </div>
+  <div class="consultation">
+    <img src="{% static 'img/reserv.png' %}" alt="Контакты" class="img" />
+    <h1 class="h1">Бронирование</h1>
+    <p class="p1">Забронируй стол</p>
+  </div>
+</section>
+<button class="learn_btn">По подробнее</button>
+
+<div class="adress">
+  <h1>Наши точки</h1>
+  <div class="tochka">
+    <p>&#x1F3E0; Абая/Ленина</p>
+    <p>&#x1F3E0; Абая/Байзакова</p>
+    <p>&#x1F3E0; Абая/Алтынсарина</p>
+    <p>&#x1F3E0; Абая/Сейфуллина</p>
+  </div>
+</div>
+{% endblock %}

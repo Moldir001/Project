@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta+Vaani:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #fff;
+}
+
+.welcome_header {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  width: 427px;
+  height: 112px;
+  color: black;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 100px;
+}
+
+.welcome_photo {
+  width: 500px;
+  border-radius: 10px;
+}
+
+.p {
+  font-size: 21px;
+  line-height: 32px;
+  text-align: left;
+  color: black;
+  width: 445px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+.button {
+  display: flex;
+  margin-top: 55px;
+  background-color: orange;
+  color: #fff;
+  padding: 20px;
+  padding-left: 40px;
+  border-radius: 65px;
+  width: 200px;
+  height: 56px;
+  border: none;
+  transition: 300ms;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: orange;
+  border: solid 1px;
+}
+
+.service {
+  margin-top: 100px;
+}
+
+.service_text {
+  margin-top: 33px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.services {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.services > div {
+  background-color: #fff;
+}
+
+.delivery,
+.vakancia,
+.consultation {
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+  margin-left: 30px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin-left: 30px;
+}
+
+.h1 {
+  text-align: center;
+  color: black;
+}
+
+.h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: black;
+}
+
+.p1 {
+  padding-left: 35px;
+  font-size: 16px;
+  color: orange;
+  text-align: center;
+  width: 266px;
+  height: 84px;
+}
+
+.learn_btn {
+  margin-left: 690px;
+  background-color: #fff;
+  color: black;
+  margin-top: 50px;
+  padding: 20px;
+  width: 150px;
+  height: 40px;
+  border-radius: 55px;
+  border: 1px solid orange;
+  transition: 300ms;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
+
+.learn_btn:hover {
+  color: #fff;
+  background-color: orange;
+}
+
+.adress {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.adress p {
+  color: black;
+}
+
+.adress h1 {
+  color: black;
+}
+
+.tochka {
+  display: flex;
+  flex-direction: row;
+}
+
+.tochka p {
+  padding: 20px;
+  margin-top: 20px;
+}
